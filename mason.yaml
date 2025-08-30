@@ -15,3 +15,5 @@ bricks:
     path: bricks/freezed_model
   clean_features:
     path: bricks/clean_features
+  routers:
+    path: bricks/routers
