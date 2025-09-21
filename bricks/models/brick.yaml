@@ -1,4 +1,4 @@
-name: freezed_model
+name: models
 description: Buat sebuah file model freezed dengan menggunakan Mason CLI.
 
 # The following defines the brick repository url.

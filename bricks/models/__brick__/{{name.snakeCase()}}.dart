@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part '{{name.snakeCase()}}.freezed.dart';
-{{#include_json_serializable}}part '{{name.snakeCase()}}.g.dart';{{/include_json_serializable}}
+part '../../freezed_model/__brick__/{{name.snakeCase()}}.freezed.dart';
+{{#include_json_serializable}}part '../../freezed_model/__brick__/{{name.snakeCase()}}.g.dart';{{/include_json_serializable}}
 {{#isAbstract}}
 @freezed
 abstract class {{name.pascalCase()}} with _${{name.pascalCase()}} {

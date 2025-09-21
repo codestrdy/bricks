@@ -1,4 +1,4 @@
-name: clean_features
+name: features
 description: Mason Bricks untuk membuat fitur baru pada project Flutter dengan Clean Architecture Riverpod.
 
 # The following defines the brick repository url.
@@ -28,6 +28,6 @@ environment:
 vars:
   name:
     type: string
-    description: Nama Fitur Baru
+    description: Nama Fitur
     default: Dash
     prompt: Masukkan nama fitur baru?

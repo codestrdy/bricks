@@ -11,9 +11,9 @@ bricks:
   #   git:
   #     url: https://github.com/felangel/mason.git
   #     path: bricks/widget
-  freezed_model:
-    path: bricks/freezed_model
-  clean_features:
-    path: bricks/clean_features
+  models:
+    path: bricks/models
+  features:
+    path: bricks/features
   routers:
     path: bricks/routers
