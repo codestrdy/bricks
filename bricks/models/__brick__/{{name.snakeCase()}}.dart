@@ -5,7 +5,7 @@ part '{{name.snakeCase()}}.freezed.dart';
 
 @freezed
 {{#isAbstract}}abstract{{/isAbstract}}{{#isSealed}}sealed{{/isSealed}} class {{name.pascalCase()}} with _${{name.pascalCase()}} {
-  const factory {{name.pascalCase()}}() = _{{name.pascalCase()}};
+  const factory {{name.pascalCase()}}({}) = _{{name.pascalCase()}};
   {{#include_json_serializable}}
   factory {{name.pascalCase()}}.fromJson(Map<String, dynamic> json) => 
   _${{name.pascalCase()}}FromJson(json);{{/include_json_serializable}}
