@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-@TypedGoRoute<{{name.pascalCase()}}Route>(path: '/{{name.lowerCase()}}')
+part '{{name.snakeCase()}}_routes.g.dart';
+
+@TypedGoRoute<{{name.pascalCase()}}Route>(path = '/{{name.lowerCase()}}')
 class {{name.pascalCase()}}Route extends GoRouteData with ${{name.pascalCase()}}Route {
   {{name.pascalCase()}}Route();
 
